@@ -1,6 +1,5 @@
 package com.example.projeto180106.repository;
 
-import java.util.Collection;
 import java.util.HashMap;
 
 import com.example.projeto180106.model.Product;
