@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos abaixo do valor</title>
+</head>
+<body>
+    <table>
+        <tr th:each="prods: ${prods}">
+        <td th:text="${prods.code}" />
+        <td th:text="${prods.name}" />
+        ....
+    </tr>
+    </table>
+</body>
+</html>

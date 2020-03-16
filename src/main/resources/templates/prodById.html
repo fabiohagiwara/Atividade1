@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto por ID</title>
+</head>
+<body>
+    <table>
+        <tr th:each="prod: ${prod}">
+        <td th:text="${prod.code}" />
+        <td th:text="${prod.name}" />
+        ....
+    </tr>
+    </table>
+</body>
+</html>
